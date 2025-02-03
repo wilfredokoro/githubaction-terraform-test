@@ -9,7 +9,7 @@
 
 ## Define a GitHub Actions Workflow
 
-Create a .github/workflows/terraform.yml file in your repository:
+Create a .github/workflows/terraform.yml file in your terraform repository:
 
 ```bash
 name: Terraform Deploy
@@ -71,8 +71,8 @@ Secret source: Actions
 Prepare workflow directory
 Prepare all required actions
 Getting action download info
-Download action repository 'actions/checkout@v4' (SHA:11breewedszd323)
-Download action repository 'hashicorp/setup-terraform@v3' (SHA:d2222d333)
+Download action repository 'actions/checkout@v4' (SHA:<this missing>)
+Download action repository 'hashicorp/setup-terraform@v3' (SHA:<this missing>)
 Complete job name: Terraform Deployment
 
 Install Terraform
